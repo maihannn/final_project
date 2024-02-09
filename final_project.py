@@ -15,7 +15,7 @@ body_cascade = cv2.CascadeClassifier(
 detection = False
 detection_time_stopped= None
 timer_starts = False
-SECONDS_TO_RECORD_AFTER_DETECTION = 10
+SECONDS_TO_RECORD_AFTER_DETECTION = 5
 
 frame_size = (int(capture.get(3)), int(capture.get(4)))
 fourcc = cv2.VideoWriter_fourcc(*"mp4v")
